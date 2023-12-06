@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "KronaOne";
+    src: url(../fonts/KronaOne-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "KronaOne";
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+}
+.header {
+    background-image: url(../img/Ellipse\ 3.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.header_continaer_1_1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    padding-top: 30px;
+    padding-bottom: 110px;
+}
+.header_container_1 {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.header_container_1_1 {
+    display: flex;
+    width: 675px;
+    font-size: 40px;
+    justify-content: space-between;
+}
+.section-1-container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 43px;
+}
+.section-1-container-1 img {
+    max-width: 80%;
+}
+.section-1-container-1 p {
+    font-family: sans-serif;
+}
+.section-1-container-1 p b {
+    color: #56AE9F;
+    font-size: 70px;
+}
+.section-1-container-1-2 {
+    max-width: 900px;
+}
+.footer_container_1_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.footer_container_2, .footer_container_3, .footer_container_4 {
+    display: flex;
+    max-width: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer img {
+    cursor: pointer;
+}
+.footer_container_3 p {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.footer {
+    background-color: #FFAD67;
+    border-radius: 54px 54px 0px 0px;
+    user-select: none;
+}
+.section-1 {
+    background-image: url(../img/Ellipse\ 2.png);
+    background-position: 100% 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
