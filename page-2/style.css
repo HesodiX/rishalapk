@@ -6,68 +6,37 @@
     font-family: "Archivo";
     src: url(../fonts/ArchivoBlack-Regular.ttf);
 }
+@font-face {
+    font-family: "Monterstat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: "KronaOne";
 }
 a {
     text-decoration: none;
     color: #000;
-    font-family: sans-serif;
+    font-family: "Monterstat"
 }
 .header {
-    background-image: url(../img/Ellipse\ 3.png);
-    background-repeat: no-repeat;
-    background-position: right top;
     user-select: none;
 }
 .header_continaer_1_1 {
     display: flex;
-    justify-content: space-around;
-    max-width: 1500px;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 110px;
 }
-.header_container_1 {
-    justify-content: space-around;
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
 .header_container_1_1 {
     display: flex;
-    width: 400px;
     font-size: 40px;
     justify-content: space-between;
-}
-.section-1 {
-    background-image: url(../img/Ellipse\ 2.png);
-    background-position: 100% 700px;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 .section-1-container-1 {
     display: flex;
     justify-content: space-around;
     width: 100%;
-}
-.section-1-container-1-1 {
-    display: flex;
-    flex-direction: column;
-    max-width: 800px;
-    gap: 54px;
-}
-.section-1-container-1-1 h1 {
-    font-size: 64px;
-    color: #56AE9F;
-    font-family: "Archivo";
-}
-.section-1-container-1-2 img {
-    width: 100%;
-}
-.section-1-container-1-2 {
-    max-width: 600px;
 }
 .section-1-container-1-2 button {
     padding-top: 23px;
@@ -105,25 +74,67 @@ a {
     align-items: center;
     justify-content: space-around;
     max-width: 100%;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
-.footer_container_2, .footer_container_3, .footer_container_4 {
+.footer_container_2 {
     display: flex;
     max-width: 400px;
     align-items: center;
+    gap: 10px;
     flex-wrap: wrap;
+    font-family: "KronaOne";
+    font-size: 24px;
 }
 .footer img {
     cursor: pointer;
 }
-.footer_container_3 p {
-    font-family: sans-serif;
-    font-weight: 500;
-}
 .footer {
-    background-color: #FFAD67;
-    border-radius: 54px 54px 0px 0px;
+    background-image: url(../img/Rectangle\ 35.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     user-select: none;
     margin-top: 50px;
+}
+.section-1-container-1-item {
+    display: flex;
+    background-color: #eaeaea;
+    gap: 20px;
+}
+.section-1-container-1-item-text {
+    display: flex;
+    flex-direction: column;
+    font-family: "Monterstat";
+    justify-content: space-around;
+    width: 934px;
+}
+.section-1-container-1-item-text h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.section-1-container-1-item-text p {
+    font-size: 28px;
+}
+.section-1-container-1-item-text button {
+    width: 344px;
+    align-self: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-radius: 37px;
+    background-color: #98D4FF;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+.section-1-container-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    align-items: center;
+}
+.footer_container_1_1_logo {
+    display: flex;
+    gap: 10px;
+    font-family: "KronaOne";
+    align-items: center;
 }
