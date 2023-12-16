@@ -6,57 +6,62 @@
     font-family: "Archivo";
     src: url(../fonts/ArchivoBlack-Regular.ttf);
 }
+@font-face {
+    font-family: "Monterstat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: "KronaOne";
+    font-family: "Monterstat";
 }
 a {
     text-decoration: none;
     color: #000;
-    font-family: sans-serif;
 }
 .header {
-    background-image: url(../img/Ellipse\ 3.png);
-    background-repeat: no-repeat;
-    background-position: right top;
     user-select: none;
 }
 .header_continaer_1_1 {
     display: flex;
-    justify-content: space-around;
-    max-width: 1500px;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 110px;
 }
-.header_container_1 {
-    justify-content: space-around;
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
 .header_container_1_1 {
     display: flex;
-    width: 400px;
-    font-size: 40px;
+    font-size: 64px;
     justify-content: space-between;
 }
-.section-1-container-1-1 {
+.section-1-container-1-item {
     display: flex;
+    gap: 34px;
+    justify-content: center;
+    border-radius: 0px 0px 51px 51px;
+    box-shadow: 0px 4px 4px 0px #FFF, 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    padding: 48px;
+}
+.section-1-container-1-item-text {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 81px;
+    max-width: 1206px;
+}
+.section-1-container-1-item-text h1 {
+    font-size: 48px;
+}
+.section-1-container-1-item-text p {
+    font-size: 32px;
 }
 .section-1-container-1 {
-    text-align: center;
-    width: 100%;
-    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items: center;
 }
-.section-1-container-1-1 img {
-    max-width: 500px;
-}
-.section-1-container-1 h1 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.section-1 {
+    margin-bottom: 81px;
 }
 .footer_container_1_1 {
     display: flex;
@@ -66,11 +71,14 @@ a {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-.footer_container_2, .footer_container_3, .footer_container_4 {
+.footer_container_2 {
     display: flex;
     max-width: 400px;
     align-items: center;
+    gap: 10px;
     flex-wrap: wrap;
+    font-family: "KronaOne";
+    font-size: 24px;
 }
 .footer img {
     cursor: pointer;
@@ -79,9 +87,34 @@ a {
     font-family: sans-serif;
     font-weight: 500;
 }
+.footer_container_1_1_logo {
+    display: flex;
+    gap: 10px;
+    font-family: "KronaOne";
+    align-items: center;
+}
+.footer_container_1_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer_container_2 {
+    display: flex;
+    max-width: 400px;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footer img {
+    cursor: pointer;
+}
 .footer {
-    background-color: #FFAD67;
-    border-radius: 54px 54px 0px 0px;
+    background-image: url(../img/Rectangle\ 35.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     user-select: none;
-    margin-top: 397px;
+    margin-top: 50px;
 }
